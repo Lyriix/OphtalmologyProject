@@ -40,6 +40,8 @@ imageNoiser/white.jpg
 #morphological
 Morphological/test/**
 
+#Objectness
+Objectness/test/**
 
 #selectArea
 selectArea/result
