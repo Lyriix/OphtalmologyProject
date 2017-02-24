@@ -1,0 +1,54 @@
+
+# Untracked files
+
+#Don't track any object/archive files 
+*.[oa]
+*.cbp
+
+#ignore build/bin/build-src directory : **/ matches file or directory anywhere 
+**/bin
+**/build
+**/build-src
+**/src-build
+
+#ignore Cmake tmp or user
+*CMakeLists.txt.user
+*CMakeCache.txt
+*cmake_install.cmake
+
+#specific
+
+#anisotropicFilter
+anisotropicFilter/img/**
+anisotropicFilter/result/**
+
+#arithmeticOperations
+
+#connectedComponents
+connectedComponent/test/**
+
+#CreateImage
+CreateImage/test/**
+
+#denoised
+Denoiser/bm3d/img/**
+Denoiser/bm3d/result/**
+
+#imageNoiser
+imageNoiser/white.jpg
+
+#morphological
+Morphological/test/**
+
+
+#selectArea
+selectArea/result
+
+#ShapeExtraction
+ShapeExtraction/test/**
+
+#softThtrsholding
+#StackDecomposerOverlay
+StackDecomposerOverlay/ARCHIVE/**
+
+
